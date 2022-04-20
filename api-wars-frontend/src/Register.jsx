@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-// MUI
-
 import Box from "@mui/material/Box";
 import FilledInput from "@mui/material/FilledInput";
 import FormControl from "@mui/material/FormControl";
@@ -11,7 +9,6 @@ import FormHelperText from "@mui/material/FormHelperText";
 import { useNavigate } from "react-router-dom";
 import Typography from "@mui/material/Typography";
 
-// grid
 import { Grid } from "@mui/material";
 
 const signup = (userName, password) => {
@@ -76,11 +73,6 @@ const Register = (props) => {
     if (userName || password) {
       return handleSignUp(userName, password);
     }
-    // if (!error?.message) {
-    //   console.log(error?.message);
-    //   setIsSuccesful(true);
-    //   console.log(isSuccesful);
-    // }
   };
 
   const handleUserNameChange = (e) => {
@@ -159,7 +151,6 @@ const Register = (props) => {
             Register
           </Button>
         </Grid>
-        {/* {!error?.message && <p>OKÉ</p>} */}
       </Grid>
     </Box>
   );

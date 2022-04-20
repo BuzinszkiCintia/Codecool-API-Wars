@@ -1,6 +1,5 @@
-// React imports
 import { Link } from "react-router-dom";
-// MUI imports
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
