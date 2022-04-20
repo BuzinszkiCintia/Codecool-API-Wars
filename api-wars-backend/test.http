@@ -1,0 +1,20 @@
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+  "userName": "szeg1.vik@gmail.com",
+  "password": "1234"
+}
+
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "userName": "szeg1.vik@gmail.com",
+  "password": "1234"
+}
+
+###
+GET http://localhost:8000/logout
+Content-Type: application/json
